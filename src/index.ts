@@ -1,6 +1,6 @@
 import i18next from "i18next";
 import { initialize } from "./i18next";
-import { converterDateToString } from "./formatDate";
+import { converterDateToString } from "./converterDateToString";
 import { addDays, subDays } from "date-fns";
 
 (async () => {
