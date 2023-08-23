@@ -1,0 +1,12 @@
+{
+  "en": {
+    "translation": {
+      "messages.welcome": "Welcome {{name}}!"
+    }
+  },
+  "nl": {
+    "translation": {
+      "messages.welcome": "Welkom {{name}}!"
+    }
+  }
+}

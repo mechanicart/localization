@@ -1,0 +1,23 @@
+{
+  "type": "module",
+  "name": "date-localization",
+  "version": "1.0.0",
+  "description": "date localization with i18next and date-fns",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --outfile=dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "i18next",
+    "date-fns"
+  ],
+  "author": "aitikhomirov",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "esbuild": "0.19.2",
+    "i18next": "^23.4.5",
+    "react-i18next": "^13.2.0"
+  }
+}
